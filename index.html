@@ -45,7 +45,7 @@
       <p>Open up a command prompt window and type "python".</p>
       
       <div class="terminal">
-        <div class="header"></div>
+        <div class="header">Test Windows Test</div>
         <div class="shell">
           <p>Microsoft Windows [Version 6.2.9200]</p>
           <p>(c) 2012 Microsoft Corporation. All rights reserved.</p>
@@ -72,84 +72,49 @@
 
   <!-- Project Site tutorial -->
   <ul id="option-mac" class="tutorial-list wrapper">
-    <li class="question">
-      <h4>Generate a site, or start from scratch?</h4>
-      <p>For Project sites, you have the option to generate a site with one of the amazing pre-built themes, or to create a site from scratch.
-      <ul class="tabs">
-        <li><a id="option-generate" href="#generate-step-1" class="selected">Generate a site</a></li>
-        <li><a id="option-vanilla" href="#vanilla-step-1">Start from scratch</a></li>
-      </ul>
+    <li id="mac-check-python">
+      <h4>Hold Up!</h4>
+      <p>There's a good chance you've already got Python installed. Open up a terminal and try typing "python".</p>
     </li>
-
-    <li id="generate-step-1" class="option-generate">
-      <h4>Repository Settings</h4>
-      <p>Head over to <a href="https://github.com/">GitHub.com</a> and create a new repository, or go to an existing one. <strong>Click on the Settings tab</strong>.</p>
-      <p class="details">For <strong>Project pages</strong>, the <code>gh-pages</code> branch is used to publish your site. That means that you can work with GitHub Pages in the same repository as the project that it's for, without affecting the project itself.</p>
-
-      <img src="images/settings@2x.png" width="489" alt="Settings for a repository" />
+    
+    <li id="mac-download-python">
+      <h4>Download Python for Mac</h4>
+      <p>We'll be using the latest version - Python 3.5.0. Grab the installer below.</p>
+      
+      <a class="mac-download" href="https://www.python.org/ftp/python/3.5.0/python-3.5.0-macosx10.6.pkg"><span class="icon"></span>Download GitHub for Windows</a>
     </li>
-
-    <li class="option-generate">
-      <h4>Automatic Generator</h4>
-      <p>Scroll down to the <strong>GitHub Pages</strong> module. Press the <strong>Launch automatic page generator</strong> button.</p>
-      <img src="images/automatic@2x.png" width="520" alt="Automatic Generator button on GitHub.com, Settings" />
+    
+    <li id="windows-install-python">
+      <h4>Installing Python</h4>
+      <p>Double-click on the file you just downloaded.<br>Make sure to check "Add Python 3.5 to PATH" before you click "Install Now".</p>
+      <p class="details">Without adding Python to your PATH you won't be able to install third-party code.<br>Don't worry! If you forget this step you can always overwrite your installation.</p>
+      
+      <img src="http://python.readthedocs.org/en/latest/_images/win_installer.png" alt="Python installer for Windows screenshot" class="full-size" />
     </li>
-
-    <li class="option-generate">
-      <h4>Add content</h4>
-      <p>Use the editor to add content to your site. If you already have a <code>README.md</code> in your project, you can import that on the right hand side.</p>
-      <p>When you're done, click <strong>Continue to Layouts</strong>.</p>
-
-      <img class="full-size" src="images/add-content@2x.png" width="681" alt="Add content to your GitHub Pages site" />
-    </li>
-
-    <li class="option-generate">
-      <h4>Pick a theme</h4>
-      <p>Choose between the themes in the carouselle at the top. When you're done, <strong>click the Publish button</strong> on the right hand side.</p>
-
-      <img src="images/choose-layout@2x.png" class="full-size" width="610" alt="Choose layout" />
-    </li>
-
-    <!-- Start of vanilla sub tutorial -->
-    <li id="vanilla-step-1" class="option-vanilla">
-      <h4>Create a gh-pages branch</h4>
-      <p>Head over to <a href="https://github.com/">GitHub.com</a> and create a new repository, or go to an existing one. In the repository overview, click the branch drop-down on the left-hand side. Type in <code>gh-pages</code> and press enter.</p>
-
-      <p class="details">For <strong>Project pages</strong>, the <code>gh-pages</code> branch is used to publish your site. That means that you can work with GitHub Pages in the same repository as the project that it's for.</p>
-      <img src="images/create-branch@2x.png" width="525" alt="Create a branch named gh-pages" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Optional: Make gh-pages the default branch</h4>
-      <p>If you created a new branch for GitHub Pages, go to the repository settings. In the Branches section, change the default branch to the newly created <code>gh-pages</code> branch.</p>
-
-      <img src="images/default-branch@2x.png" width="851" alt="Change the default branch to gh-pages" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Create an index file</h4>
-      <p>Go back to the repository overview, and use the plus icon next to the repository name to create a new file.</p>
-
-      <img src="images/create-file@2x.png" width="610" alt="Create a file in your repository" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Hello World</h4>
-      <p>Name the file <code>index.html</code> and type in <code>Hello World</code> for the content.</p>
-
-      <img src="images/hello-world@2x.png" width="518" alt="Hello World on GitHub.com" />
-    </li>
-
-    <li class="option-vanilla">
-      <h4>Commit the file</h4>
-      <p>Scroll to the bottom of the page, write a commit message, and commit the new file.</p>
-
-      <img src="images/commit-web@2x.png" width="627" alt="Commit the file" />
+    
+    <li id="windows-terminal">
+      <h4>Test it Out</h4>
+      <p>Open up a command prompt window and type "python".</p>
+      
+      <div class="terminal">
+        <div class="header"></div>
+        <div class="shell">
+          <p>Microsoft Windows [Version 6.2.9200]</p>
+          <p>(c) 2012 Microsoft Corporation. All rights reserved.</p>
+          <p><br></p>
+          <p>C:\\>python</p>
+          <p>Python 3.5.0 (default, Sept 13 2015, 10:11:12) [MSC v.1500 32 bit (Intel)] on win32</p>
+          <p>Type "help", "copyright", "credits" or "license" for more information.</p>
+          <p><span class="prompt">>>></span></p>
+        </div>
+      </div>
+      
+      <p>If you get something that looks like this, you're good to go! If not, you may have forgotten to check "Add Python 3.5 to PATH" during installation. If all else fails, send me an email and I'll do my best to help you out.</p>
     </li>
 
     <li class="option-all">
-      <h4>…and you're done!</h4>
-      <p>Fire up a browser and go to <strong>http://<em>username</em>.github.io/<em>repository</em></strong>.</p>
+      <h4>Welcome to the World of Coding!</h4>
+      <p>If you want to get a head-start before Tuesday, head on over to the <a href="https://docs.python.org/3/tutorial/">official Python tutorial</a>.</p>
       <div class="hero-octicon">
         <span class="mega-octicon octicon-check"></span>
       </div>
